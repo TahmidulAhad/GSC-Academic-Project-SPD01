@@ -1,0 +1,8 @@
+
+{
+  "name": "Grameen Service Connect",
+  "description": "A platform connecting rural citizens in Bangladesh with urban volunteers for remote assistance with digital services, forms, and applications, bridging the urban-rural digital divide.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
