@@ -126,9 +126,9 @@ Perform manual testing for critical functionality:
 - **Abdur Rahman** - Co-Lead
 
 ### Development Team
-- **M. Tawsif Hossain** - Full-Stack Developer
-- **Md. Saiful Islam Fahim** - Frontend Developer
-- **Mehrub Hossen** - Backend Developer
+- **M. Tawsif Hossain**
+- **Md. Saiful Islam Fahim**
+- **Mehrub Hossen**
 
 ## 📄 License
 
