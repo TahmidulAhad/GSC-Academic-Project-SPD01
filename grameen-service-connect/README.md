@@ -1,10 +1,5 @@
 # Grameen Service Connect
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Node.js Version](https://img.shields.io/badge/Node.js-16+-green.svg)](https://nodejs.org/)
-[![React Version](https://img.shields.io/badge/React-18+-blue.svg)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8+-blue.svg)](https://www.typescriptlang.org/)
-
 ## 🌟 Overview
 
 Grameen Service Connect is a comprehensive full-stack web platform designed to bridge the digital divide between rural communities and urban resources. This innovative solution empowers help seekers in villages to connect with urban volunteers and service providers through secure digital service requests, real-time messaging, and file sharing capabilities.
@@ -119,39 +114,29 @@ cd server && npm run dev
 
 ## 📡 API Reference
 
-### Authentication Endpoints
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/auth/register` | Register a new user account |
-| POST | `/api/auth/login` | Authenticate user and return JWT token |
-| GET | `/api/auth/profile` | Retrieve current user profile (Protected) |
+### Authentication
+- `POST /api/auth/register` - Register new user
+- `POST /api/auth/login` - User login (returns JWT)
+- `GET /api/auth/profile` - Get current user profile (protected)
 
-### User Management
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/users/:id` | Fetch user profile by ID |
-| PUT | `/api/users/:id` | Update user profile with optional avatar upload |
+### Users
+- `GET /api/users/:id` - Get user profile
+- `PUT /api/users/:id` - Update user profile (with avatar upload)
 
 ### Service Requests
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/requests` | Create a new service request with attachments |
-| GET | `/api/requests` | Retrieve all requests with filtering options |
-| GET | `/api/requests/:id` | Get detailed information for a specific request |
-| PUT | `/api/requests/:id` | Update request status |
-| GET | `/api/requests/my-requests` | Fetch current user's requests |
+- `POST /api/requests` - Create new request (with file attachments)
+- `GET /api/requests` - List all requests (with filters)
+- `GET /api/requests/:id` - Get request details
+- `PUT /api/requests/:id` - Update request status
+- `GET /api/requests/my-requests` - Get user's own requests
 
-### Messaging System
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/messages` | Send a new message |
-| GET | `/api/messages?requestId={id}` | Retrieve messages for a specific request |
+### Messages
+- `POST /api/messages` - Send message
+- `GET /api/messages?requestId=` - List messages for a request
 
 ### Testimonials
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/testimonials` | Submit a new testimonial |
-| GET | `/api/testimonials` | Fetch all testimonials |
+- `POST /api/testimonials` - Submit testimonial
+- `GET /api/testimonials` - List testimonials
 
 ## 🏗️ Technology Stack
 
