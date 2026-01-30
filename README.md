@@ -122,7 +122,7 @@ Perform manual testing for critical functionality:
 ## 👥 Team
 
 ### Project Leadership
-- **MD. Tahmidul Alam Ahad** - Project Lead
+- **Md. Tahmidul Alam Ahad** - Project Lead
 - **Abdur Rahman** - Co-Lead
 
 ### Development Team
